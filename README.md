@@ -1,21 +1,21 @@
 # MIPS-Simulator
-The project aims to provide an efficient and simple approach to simulate a MIPS CPU to execute the series of instructions  step-by-step.
-MIPSDecode
-====================
-Hi!<br>
-**MIPSDecode** is a python based script that converts lines of MIPS code into hex and binary.
-
-It works with all of the instructions in the "Core Instruction Set" from the MIPS reference sheet
-which can be found here: http://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf
+The project aims to provide an efficient and simple approach to simulate a MIPS CPU to execute the series of instructions step-by-step.
 
 
 Instructions:
 --------------------------------------------------------------------------------
+To get the example instructions, first download the folder **Test**. 
 
 To run the script, simply cd into the folder containing the files and run:
->python3 -i MIPSdecoder.py
+>python3 -i MipsSimulator.py
 
-Then type whatever line of MIPS code you wish to decode.
+Then, type the path of the download files or you can rewrite a new file with MIPS instructions.
+
+**(The filename extention should be ".txt")**
+
+It works with all of the instructions in the "Core Instruction Set" from the MIPS reference sheet
+which can be found here: http://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf
+
 
 Example Output:
 --------------------------------------------------------------------------------
