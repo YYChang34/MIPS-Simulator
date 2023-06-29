@@ -1,0 +1,5 @@
+addi $t0, $t0, 4
+addi $t1, $t1, 3
+slti $t1, $t1, 5
+sw $t1, 4($t0)
+lw $s1, 4($t0)
